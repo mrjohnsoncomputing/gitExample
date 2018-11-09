@@ -1,7 +1,7 @@
 print('begin')
 for attempt_number in range(3):
     username = input('Username: ')
-    if username in ('bob', 'jane', 'sally', 'allan'):
+    if username in ('bob', 'jane', 'sally', 'allan','jim'):
         print(f'Welcome {username}')
         break
     print('Invalid login: go away!')
